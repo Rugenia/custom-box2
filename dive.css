@@ -2,7 +2,7 @@
     background: blue;
     color: white;
      width: 150px;
-     height:300px; 
+     height:240px; 
      padding: 5px 5px;
      border: 2px solid rgb(100, 99, 99);
      margin-left: 5px;
@@ -17,6 +17,10 @@
     color:red;
    
 }
+/* centered image on the box */
+.square{
+   text-align: center; 
+}
 
 img{
     width: 130px;
@@ -28,10 +32,18 @@ button{
     height: 20px;
     border-radius: 5px;
     background: white; 
-    border-style: hidden;   
+    border-style: hidden;
+    margin-top: 5px;   
 
 }
+
 button:hover{
     background: purple;
     color: wheat;
+}
+
+/* Removed margin from the p, h4 tag for the items */
+p, h4{
+    margin: 0;
+    padding: 3px 0;
 }
