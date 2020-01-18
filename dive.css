@@ -23,7 +23,7 @@ img{
     height: 100px;
     border: 2px solid black;
 }
-input{
+button{
     width: 150px;
     height: 20px;
     border-radius: 5px;
@@ -31,7 +31,7 @@ input{
     border-style: hidden;   
 
 }
-input:hover{
+button:hover{
     background: purple;
     color: wheat;
 }
