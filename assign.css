@@ -35,7 +35,6 @@ img{
 }
 img:hover{
     transform: scaleX(1.2) scaleY(1);
-    position: relative;
     left: 5px;
 }
     /* img:hover{
