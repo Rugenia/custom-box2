@@ -1,0 +1,50 @@
+:root{
+    font-size: calc(1em + 1vmin);
+    background-image: linear-gradient(90deg, rgba(20, 9, 17, 0.5), rgb(164, 170, 168, 0.5));
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+h1{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.photo{
+    width: 60vw ;
+    height: 60vh;
+    margin: 0 auto;
+}
+img{
+    width: 50vw;
+    height: 50vh;
+    padding: 1em;
+    
+}
+span{
+    font-size: 1.5em;
+    font-weight: bold;
+    text-transform: capitalize;
+
+}
+.button{
+    display: grid;
+    grid-template-columns: 200px 200px;
+    grid-template-rows: 50px;
+    grid-gap: 500px;
+    margin: 0 80px;
+    
+}
+.butt{
+    border-radius: 2px;
+    background-color: rgb(39, 87, 87);
+    color: white;
+    font-size: 1em;
+    border: none;
+    
+    
+}
+.butt a{
+    text-decoration: none;
+    color: inherit;
+}
