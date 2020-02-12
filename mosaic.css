@@ -1,0 +1,52 @@
+:root{
+    box-sizing: border-box;
+    font-size: calc(1rem + 1vw)
+}
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+}
+.mosaic-container{
+    
+    display: grid;
+    grid-template-areas: "title title title title title"
+    "main main stuff stuff stuff"
+    "main main silly silly silly"
+    "shove shove silly silly silly";
+    grid-template-columns: 1fr repeat(3, 2fr) 1fr;
+    grid-template-rows: repeat(4, auto);
+    
+    width: 80vw;
+    height: 50vh;
+    color: white;
+    
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+#mosiac-items{
+    border: 1px solid black;
+    padding-top: 20px;
+}
+.item1{
+    grid-area: title;
+    background-color: #41817f;
+}
+.item2{
+    grid-area: main;
+    background-color: #701332;
+}
+.item3{
+    grid-area: stuff;
+    background-color: #aa5939;
+}
+.item4{
+    grid-area: silly;
+    background-color: #452f74;
+}
+.item5{
+    grid-area: shove;
+    background-color:  #41817f;
+}

@@ -1,4 +1,4 @@
- .grid{
+ /* .grid{
     display: grid;
     grid-template-columns: 200px 200px;
     grid-template-rows: 200px 200px 200px;
@@ -13,8 +13,8 @@
     padding-top: 50px;
     border-radius: 2px;
     border: 2px solid black
-} 
-/* 
+}  */
+
 :root{
     box-sizing: border-box;
 }
@@ -58,4 +58,4 @@ header,nav{
 }
 .tile * + *{
     margin-top: 0;
-} */
+}
